@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="638.0" prefWidth="551.0" style="-fx-background-color: EFF3FD;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lp.projet.AjouteannonceController">
+   <children>
+      <TextField layoutX="130.0" layoutY="144.0" prefHeight="35.0" prefWidth="300.0" promptText="Entrer le sujet" style="-fx-border-color: #00dea3; -fx-background-radius: 10; -fx-border-radius: 10;" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="144.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></TextField>
+      <TextField layoutX="130.0" layoutY="262.0" prefHeight="35.0" prefWidth="300.0" promptText="Enter le lieu" style="-fx-border-color: #00dea3; -fx-background-radius: 10; -fx-border-radius: 10;" AnchorPane.leftAnchor="130.0" AnchorPane.topAnchor="262.0">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></TextField>
+      <Text layoutX="59.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Service" AnchorPane.leftAnchor="59.0" AnchorPane.topAnchor="92.0">
+         <font>
+            <Font name="Constantia Bold Italic" size="14.0" />
+         </font></Text>
+      <Text layoutX="64.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sujet" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="153.0">
+         <font>
+            <Font name="Constantia Bold Italic" size="14.0" />
+         </font></Text>
+      <Text layoutX="65.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Date" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="210.0">
+         <font>
+            <Font name="Constantia Bold Italic" size="14.0" />
+         </font></Text>
+      <Text layoutX="67.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lieu" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="271.05078125">
+         <font>
+            <Font name="Constantia Bold Italic" size="14.0" />
+         </font></Text>
+      <DatePicker layoutX="130.0" layoutY="201.0" prefHeight="35.0" prefWidth="300.0" promptText="Enter la date" style="-fx-border-color: #00dea3; -fx-background-radius: 10; -fx-border-radius: 10;" />
+      <ComboBox editable="true" layoutX="130.0" layoutY="83.0" prefHeight="35.0" prefWidth="300.0" promptText="Saisir le service" style="-fx-border-color: #00dea3; -fx-border-radius: 10; -fx-background-radius: 10;" />
+      <TextArea layoutX="130.0" layoutY="325.0" prefHeight="126.0" prefWidth="300.0" promptText="Description" style="-fx-border-color: #00dea3; -fx-background-radius: 10; -fx-border-radius: 10;">
+         <font>
+            <Font name="System Italic" size="12.0" />
+         </font></TextArea>
+      <Text layoutX="58.0" layoutY="347.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Details">
+         <font>
+            <Font name="Constantia Bold Italic" size="14.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

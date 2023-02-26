@@ -1,0 +1,48 @@
+/*
+ * Empty Stylesheet file.
+ */
+
+/*
+.styletabpane {
+	-fx-primary-color: #007acc;
+	-fx-secondary-color: #4B6EAF;
+	-fx-focus-color: -fx-secondary-color;
+}
+
+.tab-header-area .tab-header-background {
+ 	-fx-background-color: -fx-primary-color;
+}
+.styletabpane .tab1:selected {
+	-fx-background-color: -fx-secondary-color;
+	-fx-background-insets: 0 0 0 0;
+	-fx-background-radius: 0 0 0 0;
+}
+.tab1 .tab-label { 
+ 	-fx-alignment: CENTER;
+	-fx-text-fill: whitesmoke;
+	
+	-fx-padding: 0 10 0 10;
+}
+.styletabpane:top *.tab-header-area {
+	-fx-padding: 0 0 0 30;
+	
+	/* NO SPACE LEFT OF FIRST TAB
+	 -fx-padding: 0 0 0 30; 
+}
+.styletabpane {
+	-fx-background-color: transparent;
+	-fx-tab-min-width: 100px;
+	-fx-tab-min-height: 36px;
+	-fx-tab-max-height: 36px;
+}
+.styletabpane .tab1 {
+	-fx-background-color: transparent;
+        -fx-background-color: #007acc;
+}
+.styletabpane:focused .tab-header-area .headers-region .tab:selected .focus-indicator {
+ 	-fx-border-width: 0;
+	-fx-border-insets: 0 0 0 0;
+	-fx-border-radius: 10;
+}
+
+*/
